@@ -214,6 +214,47 @@ function setLanguage(locale){
 				"sendCommandButton": "发送"
 			}
 			break;
+		case "zh_TW":
+			lang = {
+				"navbarHomeLink": "首頁",
+				"home_header": "請從目錄中選擇一個伺服器",
+				"home_description": "透過導航列來新增伺服器連線配置，或連線至現有配置中的伺服器。",
+				"serversDropdown": "我的伺服器",
+				"add_server": "新增伺服器",
+				"noServersAdded": "未新增伺服器",
+				"lang_dropdown": "語言",
+				"addServerModalLongTitle": "新增伺服器",
+				"addServerModalSvName": "伺服器名稱：",
+				"addServerModalSvIp": "伺服器IP位址：",
+				"addServerModalSvPort": "WebConsole 通訊埠：",
+				"addServerModalSvSsl": "伺服器已啟用SSL",
+				"addServerModalSslAdvice": "HTTPS客戶端連線需要SSL",
+				"addServerModalClose": "關閉",
+				"saveAndConnectServerButton": "儲存並連線",
+				"passwordModalLongTitle": "需要密碼",
+				"passwordModalLabel": "密碼：",
+				"passwordModalRememberLabel": "記住密碼",
+				"passwordModalCloseButton": "關閉",
+				"passwordSendButton": "登入",
+				"disconnectionModalLongTitle": "已斷線",
+				"disconnectionModalDescription": "與伺服器的連線中斷。 可能的因素：",
+				"disconnectionModalsub1": "伺服器已被人為關閉。",
+				"disconnectionModalsub2": "您的主機上的通訊埠未開啟。 請使用通訊埠掃描工具(Port Checker)進行測試，並再次檢查防火牆或路由器。",
+				"disconnectionModalCloseButton": "關閉",
+				"disconnectionModalWelcomeScreenButton": "返回歡迎頁面",
+				"settingsLink": "設定",
+				"settingsModalLongTitle": "WebConsole 設定",
+				"showDateSettingsSwitchLabel": "在每個控制台輸出列上顯示時間",
+				"readLogFileSwitchLabel": "登入後從伺服器取回完整的日誌紀錄",
+				"settingsModalCloseButton": "完成",
+				"players_online": "線上人數",
+				"cpu_title": "CPU",
+				"ram_title": "記憶體使用量",
+				"user_title": "登入帳號",
+				"deleteServerButton": "刪除伺服器",
+				"sendCommandButton": "送出"
+			}
+			break;
 		case "ko_KR":
 			lang = {
 				"navbarHomeLink": "메인",
